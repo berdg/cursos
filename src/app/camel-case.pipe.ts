@@ -21,7 +21,7 @@ export class CamelCasePipe implements PipeTransform {
               .toUpperCase() +
            palavra
               .substring(1).toLowerCase();
-    
+  
   }  
 
 }
